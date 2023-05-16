@@ -1,38 +1,462 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=El+Messiri&family=Quicksand:wght@300;400&display=swap");
+
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    font-size: 16px;
+    color: rgb(28, 40, 33);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html {
+    background-image: url(./images/appBackgroundImage.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header-container {
+    text-align: center;
+    padding-top: 12%;
+    padding-bottom: 8%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.header-logo {
+    font-family: 'El Messiri', sans-serif;
+    font-size: 6vw;
+    font-weight: 500;
+    line-height: .85;
+    margin: 0;
+    text-shadow: rgba(225, 225, 225) 0px 54px 55px, rgba(225, 225, 225) 0px -12px 30px, rgba(225, 225, 225) 0px 4px 6px, rgba(225, 225, 225) 0px 12px 13px, rgba(225, 225, 225) 0px -3px 5px;
 }
 
-.App-link {
-  color: #61dafb;
+.header-address {
+    font-family: 'Caveat', cursive;
+    margin: 0;
+    font-size: 4vw;
+    text-shadow: rgba(225, 225, 225) 0px 54px 55px, rgba(225, 225, 225) 0px -12px 30px, rgba(225, 225, 225) 0px 4px 6px, rgba(225, 225, 225) 0px 12px 13px, rgba(225, 225, 225) 0px -3px 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.instructor-container {
+    position: relative;
+}
+
+.instructor-image-container {
+    text-align: center;
+    margin: 0 5%;
+    margin-bottom: 10%;
+}
+
+.instructor-image {
+    width: 25%;
+    margin: 2%;
+    border-radius: 5px;
+    display: inline-block;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.bio-card {
+    position: fixed;
+    top: 30%;
+    z-index: 1;
+    color: rgb(192, 195, 193);
+    font-weight: 100;
+    padding: 5% 8% 8% 8%;
+    margin: 0 15%;
+    background-color: rgb(17, 17, 17, 0.95);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+@media (max-width: 767px) {
+    .bio-card {
+        /* height: 350px; */
+    }
+}
+
+@media (max-width: 650px) {
+    .bio-card {
+        /* height: 270px; */
+    }
+}
+
+@media (max-width: 400px) {
+    .bio-card {
+        /* height: 175px; */
+    }
+}
+
+.bio-card-title {
+    font-family: 'Caveat', cursive;
+    font-size: 7vw;
+    margin: 0;
+    padding: 0;
+}
+
+.bio-card-img {
+    width: 30%;
+    float: right;
+    padding-left: 2%;
+    padding-bottom: 2%;
+}
+
+.bio-card-description {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2vw;
+    margin: 0;
+    padding: 0;
+}
+
+.bio-card-close {
+    font-family: 'Caveat', cursive;
+    font-size: 4vw;
+    float: right;
+    margin: 0;
+    padding-top: 2%;
+    cursor: pointer;
+}
+
+#yogaStyleImg {
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.yoga-styles-image-container {
+    margin-top: 5%;
+    position: relative;
+}
+
+.yoga-style-content {
+    position: absolute;
+    /* top: 42px; */
+    top: 4.25vh;
+    left: 40px;
+}
+
+.offset-button-title {
+    margin: 0 6% 0 2%;
+    display: grid;
+    grid-template-areas:
+        'description description description description '
+        'space space title button'
+    ;
+    grid-template-columns: 1fr 1fr 1fr 2fr;
+    align-items: end;
+}
+
+#yogaStyleDescription {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2vw;
+    line-height: 1.5;
+    font-weight: 100;
+    color: white;
+    background-color: rgba(21, 23, 18, 0.742);
+    padding: 3%;
+    width: 75%;
+    grid-area: description;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#space {
+    grid-area: space;
+}
+
+#yogaStyleTitle {
+    font-family: 'Caveat', cursive;
+    font-size: 3vw;
+    letter-spacing: 1px;
+    padding: 10% 10%;
+    color: rgb(28, 40, 33);
+    grid-area: title;
+    text-align: right;
+    margin-right: 10%;
+    margin-top: 8%;
+}
+
+#yogaStyleButtonContainer {
+    grid-area: button;
+}
+
+#yogaStyleButton {
+    font-family: 'Caveat', cursive;
+    font-size: 2.5vw;
+    letter-spacing: 1px;
+    padding: 6% 7%;
+    color: white;
+    background-color: rgba(21, 23, 18, 0.742);
+    border: none;
+    margin-top: 8%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.booking-calendar {
+    margin: 5% 10%;
+    padding: 3%;
+    border-radius: 5px;
+    background-color: rgba(21, 23, 18, 0.742);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+}
+
+.booking-calendar-menu-header {
+    font-size: 2vw;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.choice-list-functionality {}
+
+.booking-calendar-search-container {
+    margin: 1%;
+    width: 23%;
+}
+
+.booking-calendar-calendar-container {
+    margin: 1% 1% 1% 0;
+    width: 80%;
+}
+
+.clear-search-button {
+    width: 75%;
+    font-size: 1.25vw;
+    letter-spacing: 1px;
+    margin-top: 2%;
+    padding: 4% 15%;
+    color: rgba(21, 23, 18, 0.742);
+    background-color: white;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.booking-calendar-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.week-number,
+.cart {
+    font-size: 4vw;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: 'Caveat', cursive;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+
+}
+
+.booking-calendar-header-days {
+    font-size: 1.75vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.booking-calendar-menu-container {}
+
+.booking-calendar-menu {
+    padding-bottom: 5%;
+    border: none;
+
+}
+
+.booking-calendar-menu-options {}
+
+.choice-list-header {
+    padding-bottom: 1%;
+    font-size: 1.5vw;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.choice-list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
+
+.choice-list-check-item {
+    font-size: 1.75vw;
+    line-height: 1.5;
+}
+
+input[type=checkbox] {
+    width: 1.5vw;
+    height: 1.5vw;
+    line-height: 1.5;
+}
+
+.calendar-table-container {
+    display: grid;
+    grid-template-areas:
+        'monH tueH wedH thuH friH satH'
+        'mon tue wed thu fri sat'
+    ;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.monday-container-header {
+    text-align: center;
+    grid-area: monH;
+    font-size: 1.75vw;
+}
+
+.tuesday-container-header {
+    text-align: center;
+    grid-area: tueH;
+    font-size: 1.75vw;
+}
+
+.wednesday-container-header {
+    text-align: center;
+    grid-area: wedH;
+    font-size: 1.75vw;
+}
+
+.thursday-container-header {
+    text-align: center;
+    grid-area: thuH;
+    font-size: 1.75vw;
+}
+
+.friday-container-header {
+    text-align: center;
+    grid-area: friH;
+    font-size: 1.75vw;
+}
+
+.saturday-container-header {
+    text-align: center;
+    grid-area: satH;
+    font-size: 1.75vw;
+}
+
+.monday-container {
+    grid-area: mon;
+    font-size: 1.75vw;
+}
+
+.tuesday-container {
+    grid-area: tue;
+    font-size: 1.75vw;
+}
+
+.wednesday-container {
+    grid-area: wed;
+    font-size: 1.75vw;
+}
+
+.thursday-container {
+    grid-area: thu;
+    font-size: 1.75vw;
+}
+
+.friday-container {
+    grid-area: fri;
+    font-size: 1.75vw;
+}
+
+.saturday-container {
+    grid-area: sat;
+    font-size: 1.75vw;
+}
+
+.single-day-column {
+    font-size: 1.5vw;
+    margin: 5% 0;
+    text-align: center;
+}
+
+.single-day-container {
+    text-align: center;
+    cursor: pointer;
+}
+
+.single-day-time-button {
+    text-align: center;
+    background-color: rgba(28, 40, 33, 0.416);
+    border: solid rgba(112, 157, 130, 0.25) .5px;
+    border-radius: 5px;
+    margin-top: 15%;
+    padding: 15% 5% 15% 5%;
+}
+
+.popup-class-card {
+    margin: 0 40%;
+    width: 30%;
+    position: fixed;
+    bottom: 20%;
+    z-index: 1;
+    color: rgb(28, 40, 33);
+    font-weight: 100;
+    background-color: #e0dddd;
+    border-radius: 2px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.close-class-card {
+    cursor: pointer;
+    float: right;
+    padding-right: 4%;
+    font-family: 'Caveat', cursive;
+    font-size: 2.5vw;
+}
+
+.popup-class-card-text {
+    padding: 15%;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2vw;
+    line-height: 1.5;
+}
+
+.popup-class-card-text-instructor {
+    float: right;
+}
+
+.popup-class-card-text-yoga {
+    float: right;
+}
+
+.date-time-class-card-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.addtocart-button {
+    font-family: 'Caveat', cursive;
+    font-size: 2.5vw;
+    padding: 8% 0;
+    border: none;
+    background-color: rgba(58, 81, 67, 0.51);
+    width: 100%;
+    cursor: pointer;
+}
+
+.footer-container {
+    background-color: rgba(23, 32, 26, 0.754);
+    height: 6vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4%;
+}
+
+.social-media-links-container {
+    display: flex;
+    justify-content: flex-end;
+    line-height: 2;
+}
+
+.footer-social-media-links {
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5vw;
+}
+
+.social-media-links {
+    text-decoration: none;
+    color: white;
 }
