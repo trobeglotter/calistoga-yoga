@@ -1,0 +1,32 @@
+[
+    {
+        "key": 0,
+        "instructorName": "Oksana",
+        "instructorBio": "Oksana has been teaching yoga for twenty years both in her home country of Brazil, New York, and is a founding member of Calistoga Yoga. She wanted to create a yoga studio to accomodate any skill level including special needs. She holds a 200 hour teacher training certification through an accredited studio as well as life-saving certification through the Red Cross. All of Calistoga Yoga's instructors are required to obtain CPR certification. She has also been practicing capoeira since she was three years old. She believes both the mind and body need to stay balanced for a healthy overall being."
+    },
+    {
+        "key": 1,
+        "instructorName": "Charlotte",
+        "instructorBio": "Charlotte is a founding member of Calistoga Yoga. She studied creative writing and poetry at UC Berkeley under Poet Laureate, Ada Limón. She wanted to bring this philisophy of thoughfulness to the body so she created the Mindful class along with Oksana through a combination of spoken word and dance like movements. She is passionate about sharing her experiences with fellow yogis. Charlotte usually teaches early morning or evening classes when yogis will benefit most from her unique practice though mid-day you will still find her at the studio to answer any questions about Calistoga Yoga."
+    },
+    {
+        "key": 2,
+        "instructorName": "Amelia",
+        "instructorBio": "Amelia has been a yoga instructor for over ten years. Before studying yoga, Amelia was an ESL teacher living and working all over the world. While living in Rishikesh, India, she decided to take up teacher training and spent five years traveling around India working as a yoga instructor. She's been with Calistoga Yoga for over five years now and her passion is helping students go beyond what they believe they can achieve. Amelia's power yoga classes have a strong emphasis on upper body strength training for those who want to deepen their inversion practice. "
+    },
+    {
+        "key": 3,
+        "instructorName": "Saadaa",
+        "instructorBio": "Saadaa is originally from Malaysia and came to California as a child. As a child she was interested in gymnastics and went on to participate in the National Olympics as a representative of Malaysia. Having a strong interest in physial fitness she studied physical therapy and nutrition at California State University. Saadaa has been an instructor with Calistoga Yoga for almost three years and has her own meal planning company with a focus in healing and nutritional balance. She can help strengthen your breathing techniques and posture."
+    },
+    {
+        "key": 4,
+        "instructorName": "Pao",
+        "instructorBio": "Pao has been a yoga instructor for ten years. He was a professional footballer for a Chilean national team for over 8 years and made the transition to yoga due to injuries from his previous career. Having worked with many levels of trainers and physical therapists throughout his previous career, Pao has learned how to read the body so his classes are recommended for those in need of more guidance around sensitive back or joint areas. For a lighter class we recommend his beginner class and for stronger, vinyasa or hatha."
+    },
+    {
+        "key": 5,
+        "instructorName": "Ava",
+        "instructorBio": "Ava is a Calistoga local. Ava's passions are in wellness of the body, mind, and spirit. She discovered yoga at a young age though meditation courses offered though Calistoga's community center. She spent her younger years traveling with a group of like minded yogis offering free courses to local communities. Having worked with experienced yogis who used their practice to aid women experiencing overwhelming pregnacies, she attained a midwifery license through the state of California to help develop our prenatal yoga class."
+    }
+]
