@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/%7Bcalistoga-yoga%7D/static/css/main.c0535542.css",
-    "main.js": "/%7Bcalistoga-yoga%7D/static/js/main.d1a1cf1b.js",
-    "static/media/appBackgroundImage.jpg": "/%7Bcalistoga-yoga%7D/static/media/appBackgroundImage.20baed9f035131e04eed.jpg",
-    "static/media/yoga4Mindful.jpg": "/%7Bcalistoga-yoga%7D/static/media/yoga4Mindful.f97abbef471393d20804.jpg",
-    "static/media/yoga2Hatha.jpg": "/%7Bcalistoga-yoga%7D/static/media/yoga2Hatha.0d97bc95a5a747051726.jpg",
-    "static/media/yoga6Prenatal.jpg": "/%7Bcalistoga-yoga%7D/static/media/yoga6Prenatal.12a888a16e809e761f77.jpg",
-    "static/media/Charlotte.jpg": "/%7Bcalistoga-yoga%7D/static/media/Charlotte.c668a994fe858e02b579.jpg",
-    "static/media/Saadaa.jpg": "/%7Bcalistoga-yoga%7D/static/media/Saadaa.7d28359725f7063ec607.jpg",
-    "static/media/Oksana.jpg": "/%7Bcalistoga-yoga%7D/static/media/Oksana.f4aa4ed6eb1aacad0e39.jpg",
-    "static/media/Ava.jpg": "/%7Bcalistoga-yoga%7D/static/media/Ava.eb69143547607831a2e8.jpg",
-    "static/media/Amelia.jpg": "/%7Bcalistoga-yoga%7D/static/media/Amelia.a2466f9d6e11e19ac76d.jpg",
-    "static/media/Pao.jpg": "/%7Bcalistoga-yoga%7D/static/media/Pao.e20208259421901d9864.jpg",
-    "static/media/yoga5Power.jpg": "/%7Bcalistoga-yoga%7D/static/media/yoga5Power.90cbd9c4c7fcbe4c9bdd.jpg",
-    "static/media/yoga1Vinyasa.jpg": "/%7Bcalistoga-yoga%7D/static/media/yoga1Vinyasa.f581d22dd7cc6b749c14.jpg",
-    "static/media/yoga3Beginner.jpg": "/%7Bcalistoga-yoga%7D/static/media/yoga3Beginner.e0c86e8033814a9d5cd2.jpg",
-    "index.html": "/%7Bcalistoga-yoga%7D/index.html",
-    "main.c0535542.css.map": "/%7Bcalistoga-yoga%7D/static/css/main.c0535542.css.map",
-    "main.d1a1cf1b.js.map": "/%7Bcalistoga-yoga%7D/static/js/main.d1a1cf1b.js.map"
+    "main.css": "/calistoga-yoga/static/css/main.1d494dd2.css",
+    "main.js": "/calistoga-yoga/static/js/main.cbe9d98e.js",
+    "static/media/appBackgroundImage.jpg": "/calistoga-yoga/static/media/appBackgroundImage.20baed9f035131e04eed.jpg",
+    "static/media/yoga4Mindful.jpg": "/calistoga-yoga/static/media/yoga4Mindful.f97abbef471393d20804.jpg",
+    "static/media/yoga2Hatha.jpg": "/calistoga-yoga/static/media/yoga2Hatha.0d97bc95a5a747051726.jpg",
+    "static/media/yoga6Prenatal.jpg": "/calistoga-yoga/static/media/yoga6Prenatal.12a888a16e809e761f77.jpg",
+    "static/media/Charlotte.jpg": "/calistoga-yoga/static/media/Charlotte.c668a994fe858e02b579.jpg",
+    "static/media/Saadaa.jpg": "/calistoga-yoga/static/media/Saadaa.7d28359725f7063ec607.jpg",
+    "static/media/Oksana.jpg": "/calistoga-yoga/static/media/Oksana.f4aa4ed6eb1aacad0e39.jpg",
+    "static/media/Ava.jpg": "/calistoga-yoga/static/media/Ava.eb69143547607831a2e8.jpg",
+    "static/media/Amelia.jpg": "/calistoga-yoga/static/media/Amelia.a2466f9d6e11e19ac76d.jpg",
+    "static/media/Pao.jpg": "/calistoga-yoga/static/media/Pao.e20208259421901d9864.jpg",
+    "static/media/yoga5Power.jpg": "/calistoga-yoga/static/media/yoga5Power.90cbd9c4c7fcbe4c9bdd.jpg",
+    "static/media/yoga1Vinyasa.jpg": "/calistoga-yoga/static/media/yoga1Vinyasa.f581d22dd7cc6b749c14.jpg",
+    "static/media/yoga3Beginner.jpg": "/calistoga-yoga/static/media/yoga3Beginner.e0c86e8033814a9d5cd2.jpg",
+    "index.html": "/calistoga-yoga/index.html",
+    "main.1d494dd2.css.map": "/calistoga-yoga/static/css/main.1d494dd2.css.map",
+    "main.cbe9d98e.js.map": "/calistoga-yoga/static/js/main.cbe9d98e.js.map"
   },
   "entrypoints": [
-    "static/css/main.c0535542.css",
-    "static/js/main.d1a1cf1b.js"
+    "static/css/main.1d494dd2.css",
+    "static/js/main.cbe9d98e.js"
   ]
 }
